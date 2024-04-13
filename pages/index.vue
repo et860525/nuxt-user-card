@@ -6,7 +6,9 @@ useHead({
 </script>
 
 <template>
-  <div class="p-5 max-w-3xl mx-auto">
-    <h1 class="text-2xl font-bold">User Card</h1>
+  <div class="max-w-2xl p-5 mx-auto">
+    <h1 class="mb-5 text-2xl font-bold text-center">User Card</h1>
+    <UserCard />
+    <DarkModeToggle />
   </div>
 </template>
