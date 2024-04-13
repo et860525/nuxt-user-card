@@ -7,5 +7,8 @@ export default defineNuxtConfig({
       viewport: "width=device-width, initial-scale=1",
     },
   },
+  ui: {
+    icons: ["skill-icons"],
+  },
   devtools: { enabled: true },
 });
