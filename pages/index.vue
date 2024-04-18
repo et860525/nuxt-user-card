@@ -6,7 +6,7 @@ definePageMeta({
 });
 
 const user_data: UserDataField = {
-  name: "Mango",
+  name: "Stave Logan",
   img: "https://avatars.githubusercontent.com/u/739984?v=4",
   email: "example@cc.com",
   skill: ["JS", "TS"],

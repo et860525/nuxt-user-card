@@ -32,11 +32,11 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
       <DarkModeToggle />
     </div>
     <UForm :schema="schema" :state="state" class="space-y-4" @submit="onSubmit">
-      <UFormGroup label="Email" name="email">
+      <UFormGroup label="Email" name="email" size="lg">
         <UInput v-model="state.email" />
       </UFormGroup>
 
-      <UFormGroup label="Password" name="password">
+      <UFormGroup label="Password" name="password" size="lg">
         <UInput v-model="state.password" type="password" />
       </UFormGroup>
 
