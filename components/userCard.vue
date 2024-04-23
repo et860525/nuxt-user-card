@@ -35,7 +35,10 @@ const title_list_style = "text-lg font-bold text-primary underline";
       <span :class="title_list_style">Email:</span> {{ props.email }}
     </p>
     <p class="mb-2">
-      <span :class="title_list_style">Skills:</span> {{ props.skill }}
+      <!-- <span :class="title_list_style">Skills:</span> {{ props.skill }} -->
+      <span :class="title_list_style" class="align-bottom">Skills:</span>&nbsp;
+      <UIcon name="i-logos-javascript" size="30px" dynamic />
+      <UIcon name="i-logos-typescript-icon" class="ml-2" size="30px" dynamic />
     </p>
     <p><span :class="title_list_style">Intro:</span> {{ props.intro }}</p>
   </div>
