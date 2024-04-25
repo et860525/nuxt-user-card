@@ -1,10 +1,4 @@
 <script setup lang="ts">
-interface IFlipCard {
-  height: number;
-}
-
-const props = defineProps<IFlipCard>();
-
 /* Flip card state */
 const isFlipped = ref(false);
 

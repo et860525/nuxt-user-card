@@ -25,9 +25,9 @@ const title_list_style = "text-lg font-bold text-primary underline";
 
 <template>
   <div
-    class="p-8 tracking-wide border rounded-lg shadow-lg border-slate-500 shadow-gray-500/50 dark:bg-slate-500 dark:shadow-slate-500/50"
+    class="p-8 tracking-wide transition ease-in-out rounded-lg shadow-md bg-slate-300 border-slate-500 shadow-gray-400/50 dark:bg-slate-500 dark:shadow-slate-500/50"
   >
-    <div class="text-center mb-1">
+    <div class="mb-1 text-center">
       <img :src="props.img" class="mx-auto rounded-full w-28 h-28" />
     </div>
     <h2 class="mb-5 text-2xl font-bold text-center">{{ props.name }}</h2>
