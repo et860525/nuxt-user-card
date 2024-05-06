@@ -25,10 +25,10 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 </script>
 
 <template>
-  <div class="max-w-2xl p-5 mx-auto">
+  <div class="max-w-2xl p-5 mx-auto tracking-wider">
     <Navbar />
     <div class="flex justify-center gap-2 mb-5">
-      <h1 class="text-2xl font-bold text-center">Login Page</h1>
+      <h1 class="text-2xl font-bold text-center">Login</h1>
       <DarkModeToggle />
     </div>
     <UForm :schema="schema" :state="state" class="space-y-4" @submit="onSubmit">
@@ -40,7 +40,12 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <UInput v-model="state.password" type="password" />
       </UFormGroup>
 
-      <UButton type="submit"> Submit </UButton>
+      <p class="text-gray-500 bg:text-gray-400 text-sm">
+        Don't have an account?&nbsp;
+        <NuxtLink to="signup" class="text-white underline">Sign up</NuxtLink>
+      </p>
+
+      <UButton type="submit"> Submit</UButton>
     </UForm>
   </div>
 </template>

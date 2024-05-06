@@ -16,7 +16,7 @@ const user_data: UserDataField = {
 </script>
 
 <template>
-  <div class="max-w-2xl p-5 mx-auto">
+  <div class="max-w-2xl p-5 mx-auto tracking-wider">
     <Navbar />
     <div class="flex justify-center gap-2 mb-10">
       <h1 class="text-2xl font-bold text-center">User Card</h1>
